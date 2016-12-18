@@ -216,6 +216,9 @@
 		171D19521DFB2FB30056E6EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib/;
+				"OTHER_LDFLAGS[arch=*]" = "-lportaudio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -223,6 +226,9 @@
 		171D19531DFB2FB30056E6EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib/;
+				"OTHER_LDFLAGS[arch=*]" = "-lportaudio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
